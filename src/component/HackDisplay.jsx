@@ -40,7 +40,7 @@ function HackDisplay() {
       } else {
         clearInterval(intervalId); // Stop after sequence completes
       }
-    }, 800); // Adjust timing for different effects (800ms)
+    }, 2000); // Adjust timing for different effects (800ms)
 
     return () => clearInterval(intervalId); 
   }, []);
