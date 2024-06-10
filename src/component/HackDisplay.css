@@ -1,0 +1,8 @@
+.hack-container { /* Basic styling */
+  background-color: black; 
+  color: limegreen;       
+  font-family: monospace; 
+  padding: 15px;         
+}
+
+
