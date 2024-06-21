@@ -1,7 +1,7 @@
 .hack-container { /* Basic styling */
   background-color: black; 
   color: limegreen;       
-  font-family: monospace; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
   padding: 15px;         
 }
 

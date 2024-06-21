@@ -6,9 +6,8 @@ function HackDisplay() {
 //   const messagesEndRef = useRef(null); // Ref to scroll to the bottom
 
   const hackSequence = [
-    "Hacking Instagram Account",
-    "Initializing Hack tool...",
     "Connecting to Instagram.....",
+    ".....",
     "Connecting to server 1...",
     "[ERROR] Connection failed. Retrying...",
     "Connecting to server 2...",
@@ -16,8 +15,9 @@ function HackDisplay() {
     "Connecting to server 3...",
     "[SUCCESS] Connected...",
     `Target Username:.... `,
-    `"rana.anirudh"`,
-    " ",
+    `"anamika.rana.1238"`,
+    "..",
+    "....",
     "[BRUTE FORCE] Initiated...",
     "200K passwords tried...",
     "...Match not found...",
@@ -28,13 +28,14 @@ function HackDisplay() {
     "Accessing Account...",
     "[SUCCESS] Hack Successful!",
     "Extracting data...",
-    "Hack succesful, details sent to admin.." // Additional steps for realism
+    "Hack succesful, details sent to the admin.." // Additional steps for realism
   ];
 
   useEffect(() => {
     let index = 0;
     const intervalId = setInterval(() => {
       if (index < hackSequence.length) {
+        console.log(hackSequence[index]); 
         setMessages(prevMessages => [...prevMessages, hackSequence[index]]);
         index++;
       } else {
