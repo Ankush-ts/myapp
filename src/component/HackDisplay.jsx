@@ -15,7 +15,7 @@ function HackDisplay() {
     "Connecting to server 3...",
     "[SUCCESS] Connected...",
     `Target Username:.... `,
-    `"anamika.rana.1238"`,
+    `"............."`,
     "..",
     "....",
     "[BRUTE FORCE] Initiated...",
